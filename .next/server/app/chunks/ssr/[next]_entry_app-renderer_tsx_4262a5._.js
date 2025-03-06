@@ -1,0 +1,18 @@
+Error.stackTraceLimit = 100;
+global.self = global;
+require("./_f98df9._.js");
+require("./[next]_polyfill_app-polyfills_ts_5f46d7._.js");
+require("./[next]_internal_headers_ts_99bc4d._.js");
+require("./[next]_internal_http_ts_2b10e5._.js");
+require("./[next]_entry_app-renderer_tsx_8ccbda._.js");
+require("./[turbopack-node]_ipc_index_ts_ffddb7._.js");
+require("./[turbopack-node]_compiled_stacktrace-parser_index_704a1f.js");
+require("./[next]__7f13e6._.js");
+require("./src_0c8515._.js");
+require("./node_modules_next_df1931._.js");
+require("./node_modules_react-icons_ai_index_esm_f774ff.js");
+require("./node_modules_react-icons_fi_index_esm_475bf8.js");
+require("./node_modules_react-icons_gi_index_esm_564808.js");
+require("./node_modules_react-icons_lib_esm_index_7ae074.js");
+require("./[next]_entry_app-renderer_tsx_eb813f._.js");
+require("./[next]_entry_app-renderer_tsx_183166._.js");

@@ -1,0 +1,41 @@
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
+    "chunks/ssr/[next]_entry_app-renderer_tsx_ac6b8d._.js",
+    {},
+]);
+(globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
+  "path": "chunks/ssr/[next]_entry_app-renderer_tsx_ac6b8d._.js",
+  "chunks": [
+    "chunks/ssr/node_modules_06460c._.js",
+    "chunks/ssr/src_app_error_7651ca.js",
+    "chunks/ssr/src_hooks_useWavesurfer_0196dc.js",
+    "chunks/ssr/src_utils_formatters_3a12fb.js",
+    "chunks/ssr/src_redux_0d91cc._.js",
+    "chunks/ssr/src_components_navigation_NavLink_jsx_574fc8._.js",
+    "chunks/ssr/src_components_player_Player_jsx_46b427._.js",
+    "chunks/ssr/src_components_searchbar_SearchBar_jsx_30d4fd._.js",
+    "chunks/ssr/_env_b53fce.js",
+    "chunks/ssr/[turbopack-node]_ipc_index_ts_587dd5._.js",
+    "chunks/ssr/[turbopack-node]_compiled_stacktrace-parser_index_e42c5d.js",
+    "chunks/ssr/[next]_polyfill_app-polyfills_ts_5f5140._.js",
+    "chunks/ssr/[next]_internal_headers_ts_d8000c._.js",
+    "chunks/ssr/[next]_internal_http_ts_cf4e2c._.js",
+    "chunks/ssr/[next]_entry_app-renderer_tsx_cef1f6._.js",
+    "chunks/ssr/[next]__678c02._.js",
+    "chunks/ssr/node_modules_0f82e3._.js",
+    "chunks/ssr/src_app_b0d1de._.js",
+    "chunks/ssr/src_components_list-items_LinkCardItem_jsx_e0f085._.js",
+    "chunks/ssr/src_components_others_TopArtistsContainer_jsx_9b68fc._.js",
+    "chunks/ssr/src_components_navigation_NavLink_jsx_8a69b0._.js",
+    "chunks/ssr/src_components_navigation_Sidebar_jsx_369c30._.js",
+    "chunks/ssr/src_components_player_Player_jsx_a15bdb._.js",
+    "chunks/ssr/src_components_player_Player_jsx_64cc70._.js",
+    "chunks/ssr/src_components_searchbar_SearchBar_jsx_6b83ac._.js",
+    "chunks/ssr/src_components_searchbar_SearchBar_jsx_58efda._.js",
+    "chunks/ssr/src_utils_e554d0._.js",
+    "chunks/ssr/src_redux_ReduxProvider_jsx_0e612c._.js",
+    "chunks/ssr/src_redux_ReduxProvider_jsx_5a4f69._.js",
+    "chunks/rsc/[next]_internal_font_google_rubik_e34f261f_module_b5a149.css",
+    "chunks/rsc/src_app_globals.css"
+  ],
+  "source": "entry"
+});
