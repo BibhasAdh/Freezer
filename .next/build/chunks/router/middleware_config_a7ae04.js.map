@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/middleware_config.js"],"sourcesContent":["export default {\"matcher\":[\"/((?!api|_next/static|_next/image|favicon.ico).*)\"]};"],"names":[],"mappings":";;;uCAAe;IAAC,WAAU;QAAC;KAAoD;AAAA"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

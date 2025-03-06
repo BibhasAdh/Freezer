@@ -1,3 +1,6 @@
+'use client';
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { Rubik } from 'next/font/google';
 import './globals.css';
 import Sidebar from '@/components/navigation/Sidebar';
@@ -15,6 +18,17 @@ const rubik = Rubik({
 });
 
 export default function RootLayout({ children }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    // Check if user is authenticated
+    const isAuthenticated = document.cookie.includes('auth=true');
+    
+    if (!isAuthenticated && window.location.pathname !== '/login' && window.location.pathname !== '/register') {
+      router.push('/login');
+    }
+  }, []);
+
   return (
     <html lang='en' className={ rubik.className }>
       <link rel="icon" href="./favicon.png" sizes="any" />
