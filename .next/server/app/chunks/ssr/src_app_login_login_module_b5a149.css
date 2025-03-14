@@ -1,0 +1,49 @@
+/* chunk [output]/.next/server/app/chunks/ssr/src_app_login_login_module_b5a149.css */
+/* [project]/src/app/login/login.module.css (css, css module, ssr) */
+.loginContainer__login__9bf873f2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.loginForm__login__9bf873f2 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.loginForm__login__9bf873f2 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+.formGroup__login__9bf873f2 {
+  margin-bottom: 15px;
+}
+.formGroup__login__9bf873f2 label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+.formGroup__login__9bf873f2 input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.loginForm__login__9bf873f2 button {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+.loginForm__login__9bf873f2 button:hover {
+  background-color: #0050c8;
+}
+

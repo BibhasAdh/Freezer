@@ -15,6 +15,12 @@
   text-decoration: none;
 }
 
+body.login-body {
+  background-color: #000; /* Set background color to black for login page */
+  color: #fff; /* Set text color to white for login page */
+}
+
+
 body {
   height: 100vh;
   background: #000000;

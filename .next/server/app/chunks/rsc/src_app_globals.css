@@ -15,6 +15,10 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+body.login-body {
+  background-color: #000;
+  color: #fff;
+}
 body {
   height: 100vh;
   background: #000000;
