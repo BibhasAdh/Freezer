@@ -21,21 +21,12 @@ export async function fetchTrack(id) {
     return data;
 }
 
-// export async function fetchTopTracks({ limit = 10 } = {}) {
-//     const endpoint = `/chart/0/tracks?limit=${ limit }`;
-//     const { data } = await fetchData(endpoint);
+export async function fetchTopTracks({ limit = 10 } = {}) {
+    const endpoint = `/chart/0/tracks?limit=${ limit }`;
+    const { data } = await fetchData(endpoint);
 
-//     return data;
-// }
-
-export async function fetchTopTracks() {
-    const response = await fetch('/api/top-tracks');
-    if (!response.ok) {
-      throw new Error('Failed to fetch top tracks');
-    }
-    const data = await response.json();
     return data;
-  }
+}
 
 export async function fetchTopArtists({ limit = 3 } = {}) {
     const endpoint = `/chart/0/artists?limit=${ limit }`;
